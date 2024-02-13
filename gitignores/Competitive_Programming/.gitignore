@@ -1,0 +1,24 @@
+# .vscode folder for running C++ on vscode
+.vscode/*
+
+
+Desktop.ini
+
+
+# competitive programming helper folder
+*.cph
+
+# Executables
+*.exe
+*.bin
+
+# uncompleted problem list
+uncompleted_queue/
+
+contest_playground/
+
+# ignore some input.txt and output.txt
+input.txt
+output.txt
+in.txt
+out.txt
