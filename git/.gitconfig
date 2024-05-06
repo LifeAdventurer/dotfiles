@@ -29,7 +29,7 @@
 [branch]
 
     # Show most recently changed branches first
-    sort = -comitterdate
+    sort = -committerdate
 
 [init]
 
