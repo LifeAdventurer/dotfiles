@@ -1,4 +1,5 @@
 [alias]
+
     # List aliases.
     aliases = config --get-regexp alias
 
@@ -19,3 +20,12 @@
 
     # View the current working tree status using the short format
     s = status --short
+
+[branch]
+
+    # Show most recently changed branches first
+    sort = -comitterdate
+
+[init]
+
+    defaultBranch = main
