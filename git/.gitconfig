@@ -1,0 +1,21 @@
+[alias]
+    # List aliases.
+    aliases = config --get-regexp alias
+
+    # Amend the currently staged files to the latest commit.
+    amend = commit --amend --reuse-message=HEAD
+
+    # Clone a repository including all submodules.
+    c = clone --recursive
+
+    # List contributors with number of commits.
+    contributors = shortlog --summary --numbered
+
+    # View abbreviated SHA, description, and history graph of the latest 20 commits.
+    l = log --pretty=oneline -n 20 --graph --abbrev-commit
+
+    # Pull in remote changes for the current repository and all its submodules.
+    p = pull --recurse-submodules
+
+    # View the current working tree status using the short format
+    s = status --short
