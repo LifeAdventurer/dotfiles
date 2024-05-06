@@ -21,6 +21,11 @@
     # View the current working tree status using the short format
     s = status --short
 
+    # Show verbose output about branches, remotes or tags
+    branches = branch --all
+    tags = tag -l
+    remotes = remote --verbose
+
 [branch]
 
     # Show most recently changed branches first
