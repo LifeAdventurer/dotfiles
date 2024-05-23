@@ -19,11 +19,14 @@ return {
 
     -- Set menu
     dashboard.section.buttons.val = {
-      dashboard.button("e", "   New File", "<cmd>ene<CR>"),
+      dashboard.button("n", "   New File", "<cmd>ene<CR>"),
       dashboard.button("f", "󰈞   Find File", "<cmd>Telescope find_files<CR>"),
       dashboard.button("g", "   Find Word", "<cmd>Telescope live_grep<CR>"),
-      dashboard.button("r", "   Recent", "<cmd>Telescope oldfiles<CR>"),
-      dashboard.button("q", "   Quit NVIM", "<cmd>qa<CR>"),
+      dashboard.button("t", "󰃶   TODOs", "<cmd>TodoTelescope<CR>"),
+      dashboard.button("w", "   Restore Session For Current Directory", "<cmd>SessionRestore<CR>"),
+      dashboard.button("l", "󰒲   Lazy", "<cmd>Lazy<CR>"),
+      dashboard.button("u", "󰂖   Update plugins", "<cmd>lua require('lazy').sync()<CR>"),
+      dashboard.button("q", "   Quit", "<cmd>qa<CR>"),
     }
 
     -- Send config to alpha
