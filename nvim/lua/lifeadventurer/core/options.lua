@@ -1,5 +1,3 @@
-vim.cmd("set shell=powershell")
-
 local opt = vim.opt
 
 opt.relativenumber = true
