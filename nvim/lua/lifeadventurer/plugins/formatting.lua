@@ -11,10 +11,18 @@ return {
         lua = { "stylua" },
         python = { "black", "isort" },
       },
+      formatters = {
+        injected = {
+          options = {
+            ignore_errors = true,
+          },
+        },
+      },
       format_on_save = {
         lsp_fallback = true,
         async = false,
-        timeout_ms = 1000,
+        quiet = false,
+        timeout_ms = 2000,
       },
     })
 
@@ -22,7 +30,8 @@ return {
       conform.format({
         lsp_fallback = true,
         async = false,
-        timeout_ms = 1000,
+        quiet = false,
+        timeout_ms = 2000,
       })
     end, { desc = "Format file or range (in visual mode)" })
   end,
