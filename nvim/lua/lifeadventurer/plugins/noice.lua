@@ -6,6 +6,10 @@ return {
     "rcarriga/nvim-notify",
   },
   opts = {
+    presets = {
+      command_palette = true,
+      long_message_to_split = true,
+    },
     views = {
       cmdline_popup = {
         position = {
