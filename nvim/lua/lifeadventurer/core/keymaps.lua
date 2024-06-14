@@ -3,6 +3,9 @@ vim.g.mapleader = " "
 vim.keymap.set("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 vim.keymap.set("t", "<C-n>", "<C-\\><C-n>", { desc = "Exit terminal mode with Ctrl+n" })
 
+vim.keymap.set("n", "<C-s>", "<cmd>w<CR>", { desc = "Saves current file" })
+vim.keymap.set("i", "<C-s>", "<ESC><cmd>w<CR>", { desc = "Saves current file" })
+
 vim.keymap.set("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
 
 vim.keymap.set("n", "<leader>+", "<C-a>", { desc = "Increment number" })
