@@ -34,7 +34,7 @@ return {
         "rust_analyzer",
         "taplo",
         "texlab",
-        "tsserver",
+        "ts_ls",
         "yamlls",
       },
     })
