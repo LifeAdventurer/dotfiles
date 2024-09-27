@@ -34,3 +34,5 @@ vim.keymap.set("v", "K", ":m '<-2<CR>gv=gv")
 
 vim.keymap.set("n", "<leader>ss", "vi'") -- Select text inside single quotes
 vim.keymap.set("n", "<leader>dd", "vi\"") -- Select text inside double quotes
+
+vim.keymap.set("n", "<C-t>", "<cmd>term<CR>") -- Open terminal
