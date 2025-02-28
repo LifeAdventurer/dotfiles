@@ -31,6 +31,15 @@
     # Show most recently changed branches first
     sort = -committerdate
 
+[tag]
+
+    sort = version:refname
+
 [init]
 
     defaultBranch = main
+
+[diff]
+
+    algorithm = histogram
+    renames = true
